@@ -1,0 +1,159 @@
+/* CSS code for index.html */
+/* Customize the styles according to your preferences */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  /* Header styles */
+  header {
+    background-color: #D5D9C0;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .header-content{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    height: 160px;
+    width: auto;
+  }
+  
+  .school-name{
+    margin: 0;
+    font-size: 24px;
+  }
+  
+ .navigation{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list {
+    display: inline;
+  }
+  
+  .items{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .container {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin-top: 0;
+  }
+  
+  .description {
+    margin-bottom: 0;
+  }
+  
+  .school-level {
+    margin: 10px 0 5px;
+  }
+  
+  .school-level-description {
+    margin-bottom: 10px;
+  }
+  
+  .gallery-description {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #D5D9C0;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .footer-logo img {
+    height: 120px;
+    width: auto;
+  }
+  
+  .footer-school-info{
+    margin-bottom: 15px;
+  }
+  .footer-school-name{
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .useful {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-lists{
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact-info{
+    text-align: left;
+  }
+  
+  /* Media query for responsive design */
+  @media screen and (max-width: 768px) {
+    .logo img {
+      height: 40px;
+    }
+  
+    .school-name h1 {
+      font-size: 18px;
+    }
+  
+    nav ul li a {
+      font-size: 14px;
+    }
+  
+    .footer-logo img {
+      height: 25px;
+    }
+  
+    .footer-school-name p {
+      font-size: 14px;
+    }
+  
+    .footer-useful-links ul li a {
+      font-size: 14px;
+    }
+  
+    .footer-contact-info h4 {
+      font-size: 14px;
+    }
+  }
+  
